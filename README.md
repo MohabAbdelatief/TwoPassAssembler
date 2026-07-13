@@ -40,12 +40,6 @@ Assembly Source ──► [ PASS 1 ] ──► Symbol Table + Location Counter
 - Handling of assembler directives: 「list yours — e.g. START, END, WORD, RESW, RESB, BYTE」
 - Error detection for 「e.g. undefined symbols, duplicate labels, invalid opcodes」
 
-## Target Machine / Instruction Set
-
-「Describe the ISA your assembler targets — e.g. SIC/SIC-XE, or a custom instruction set. List the supported instructions and their formats. This is the key section that tells a reader exactly what your assembler understands.」
-
-## Getting Started
-
 ### Requirements
 - Swift 「6.1」 (Xcode 「16.4)
 
