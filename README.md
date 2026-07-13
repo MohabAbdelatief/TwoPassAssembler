@@ -2,7 +2,7 @@
 
 > A two-pass assembler that translates assembly source code into machine code, written entirely in Swift.
 
-![Swift](https://img.shields.io/badge/Swift-5-orange) ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
+![Swift](https://img.shields.io/badge/Swift-6-orange) ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 
 ## Overview
 
@@ -41,7 +41,7 @@ Assembly Source ──► [ PASS 1 ] ──► Symbol Table + Location Counter
 - Error detection for 「e.g. undefined symbols, duplicate labels, invalid opcodes」
 
 ### Requirements
-- Swift 「5」 (Xcode 「16.4)
+- Swift 「6.1」 (Xcode 「16.4)
 
 ### Build & Run
 ```bash
