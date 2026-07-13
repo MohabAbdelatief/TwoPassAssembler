@@ -41,7 +41,7 @@ Assembly Source ──► [ PASS 1 ] ──► Symbol Table + Location Counter
 - Error detection for 「e.g. undefined symbols, duplicate labels, invalid opcodes」
 
 ### Requirements
-- Swift 「6.1」 (Xcode 「16.4)
+- Swift 「5」 (Xcode 「16.4)
 
 ### Build & Run
 ```bash
