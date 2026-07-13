@@ -47,7 +47,7 @@ Assembly Source ──► [ PASS 1 ] ──► Symbol Table + Location Counter
 ## Getting Started
 
 ### Requirements
-- Swift 「5.x」 (Xcode 「version」, or the Swift toolchain on macOS)
+- Swift 「6.1」 (Xcode 「16.4)
 
 ### Build & Run
 ```bash
@@ -57,26 +57,12 @@ cd Two-Pass-Assembler
 swift run   # or: open in Xcode and Run
 」
 ```
-「Explain how the assembler receives its input — a file path argument? a hard-coded input file? stdin?」
-
-## Usage Example
-
-**Input** (`example.asm`):
-```asm
-「paste a small, real sample of your assembly input」
-```
-
-**Output** (machine code / object program):
-```
-「paste the actual output your assembler produces for that input」
-```
-> This example is the single most useful part of the README for a reviewer — it shows the assembler working in one glance. Use a short but real input/output pair.
 
 ## Project Structure
 
 ```
 Two-Pass-Assembler/
-├── TwoPassAssemberV1/      # 「source files — briefly note what the main ones do」
+├── TwoPassAssemberV1/     
 ├── Project Documentation.pdf
 └── README.md
 ```
